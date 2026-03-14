@@ -134,8 +134,7 @@ section{
 .project-track{
     display: flex;
     gap:20px;
-    animation: scrollProject 10s linear infinite;
-    will-change: transform;
+    /* animation: scrollProject 10s linear infinite; */
 }
 
 
