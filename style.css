@@ -125,10 +125,10 @@ section{
    
     
 .projects-wrapper{
-    overflow-x: hidden;
+    overflow: hidden;
     /*cursor: grab;*/
-    width: 100px;
-    padding: 10px 0;
+   /* width: 100px;*/
+    margin-top: 40px;
     background: #f4f4f4;
     /*user-select: none;*/
 }
