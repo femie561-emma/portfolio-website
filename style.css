@@ -133,6 +133,7 @@ section{
 .project-track{
     display: flex;
     gap: 20px;
+    width: max-content;
     animation: scroll-left 20s linear infinite;
 }
 
