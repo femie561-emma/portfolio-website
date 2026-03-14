@@ -112,11 +112,9 @@ section{
     display: grid;
     grid-template-column: 1fr 1fr ;
     grid-template-row: 1fr 1fr  ;
-    flex-wrap: wrap;
     margin-top: 30px;
      background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-     /* min-width: 250px; */
     border-radius: 10px;
 }
 
@@ -232,7 +230,16 @@ footer{
 
 @media(max-width: 768px){
 
-        
+
+
+.projects-container{
+    display: grid;
+    grid-template-column: 1fr 1fr ;
+    grid-template-row: 1fr 1fr  ;
+    margin-top: 30px;
+    width:50px;
+}
+    
 .projects-wrapper{
     overflow: hidden;
     width:100%;
