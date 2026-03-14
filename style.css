@@ -232,6 +232,20 @@ footer{
 
 @media(max-width: 768px){
 
+        
+.projects-wrapper{
+    overflow: hidden;
+    width:100%;
+    position: relative;
+}
+
+.project-track{
+    display: flex;
+    gap:20px;
+    animation: scrollProject 10s linear infinite;
+    will-change: transform;
+}
+    
 @keyframes  scrollProject{
 
     0%{
