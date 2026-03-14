@@ -126,17 +126,12 @@ section{
     
 .projects-wrapper{
     overflow: hidden;
-    /*cursor: grab;*/
-   /* width: 100px;*/
     margin-top: 40px;
-    background: #f4f4f4;
-    /*user-select: none;*/
 }
 
 .project-track{
     display: flex;
-    gap: 20px;
-   /* width: max-content;*/
+    gap:20px;
     animation: scrollProject 10s linear infinite;
 }
 
