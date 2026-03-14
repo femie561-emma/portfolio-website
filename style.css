@@ -125,10 +125,12 @@ section{
    
     
 .projects-wrapper{
-    overflow: hidden;
+    overflow-x: hidden;
+    cursor: grab;
     width: 100px;
     padding: 10px 0;
     background: #f4f4f4;
+    user-select: none;
 }
 
 .project-track{
