@@ -108,50 +108,24 @@ section{
 
 /* PROJECTS */
 
-.projects-container{
-    display: grid;
-    grid-template-column: 1fr 1fr ;
-    grid-template-row:   ;
-    margin-top: 30px;
-     background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
+
 
 
    
     padding: 20px;
    
     
-.projects-wrapper{
-    overflow: hidden;
-    width:100%;
-    position: relative;
-}
 
-.project-track{
-    display: flex;
-    gap:20px;
-    /* animation: scrollProject 10s linear infinite; */
-}
+
 
 
 /* ANIMATION */
 
-@keyframes  scrollProject{
 
-    0%{
-        transform: translate3d(0,0,0);
-    }
 
-    100%{
-        transform: translate3d(-50%,0,0);
-    }
-}
-
-.projects-wrapper:hover .project-track{
+/* .projects-wrapper:hover .project-track{
      animation-play-state: paused;
-}
+} */
 
 /* HAMBURGER */
 
@@ -229,41 +203,6 @@ footer{
 /* MOBILE RESPONSIVE */
 
 @media(max-width: 768px){
-
-
-
-.projects-container{
-    display: grid;
-    margin-top: 30px;
-    width:px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transform: 1.3s;
-    
-}
-    
-.projects-wrapper{
-    overflow: hidden;
-    width:100%;
-    position: relative;
-}
-
-.project-track{
-    display: flex;
-    gap:20px;
-    animation: scrollProject 10s linear infinite;
-    will-change: transform;
-}
-    
-@keyframes  scrollProject{
-
-    0%{
-        transform: translate3d(0,0,0);
-    }
-
-    100%{
-        transform: translate3d(-50%,0,0);
-    }
-}
     
  body{
     overflow-x: hidden;
