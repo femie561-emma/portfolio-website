@@ -126,15 +126,14 @@ section{
     
 .projects-wrapper{
     overflow: hidden;
-    width:100px;
+    width:100%;
+    position: relative;
 }
 
 .project-track{
     display: flex;
     gap:20px;
     animation: scrollProject 10s linear infinite;
-    transition:0.3s;
-    flex-wrap: wrap;
 }
 
 
