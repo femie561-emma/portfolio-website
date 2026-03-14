@@ -127,7 +127,8 @@ section{
 .projects-wrapper{
     overflow: hidden;
     width: 100px;
-    margin-top: 40px;
+    padding: 10px 0;
+    background: #f4f4f4;
 }
 
 .project-track{
