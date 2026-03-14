@@ -127,7 +127,6 @@ section{
 .projects-wrapper{
     overflow: hidden;
     width:100px;
-    margin-top: 40px;
 }
 
 .project-track{
@@ -144,11 +143,11 @@ section{
 @keyframes  scrollProject{
 
     0%{
-        transform: translateX(0);
+        transform: translateX(0,0,0);
     }
 
     100%{
-        transform: translateX(-50%);
+        transform: translateX(-50%,0,0);
     }
 }
 
