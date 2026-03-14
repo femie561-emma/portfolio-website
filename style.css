@@ -133,6 +133,21 @@ section{
     display: flex;
     gap:20px;
     animation: scrollProject 10s linear infinite;
+    transition:0.3;
+}
+
+
+/* ANIMATION */
+
+@keyframes scrollProject{
+
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(-50%);
+    }
 }
 
 .projects-wrapper:hover .project-track{
@@ -200,23 +215,6 @@ nav.show{
     transform: translateX(0);
 }
 
-
-
-
-
-
-/* ANIMATION */
-
-@keyframes scrollProject{
-
-    0%{
-        transform: translateX(0);
-    }
-
-    100%{
-        transform: translateX(-50%);
-    }
-}
 
 
 
