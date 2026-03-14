@@ -152,7 +152,7 @@ section{
 }
 
 .projects-wrapper:hover .project-track{
-     animation-play-state: running;
+     animation-play-state: paused;
 }
 
 /* HAMBURGER */
