@@ -17,3 +17,25 @@ document.querySelector("#nav-menu a").forEach(link =>{
 
 });
 
+
+const track = document.getElementById("project-track");
+
+track.innerHTML += track.innerHTML;
+
+let scrollAmount = 0;
+
+function autoScroll(){
+   scrollAmount += 0.5;
+
+   if(scrollAmount >= track.scrollWidth / 2){
+      scrollAmount = 0;
+  }
+      track.style.transform = `translateX(-${scrollAmount}px)`
+
+      requestAnimationFrame(autoScroll);
+   }
+
+   autoScroll();
+   
+
+
