@@ -235,7 +235,7 @@ footer{
 .projects-container{
     display: grid;
     grid-template-column: 1fr 1fr 1fr;
-    /* grid-template-row: 1fr 1fr  ; */
+    grid-template-row: 1fr 1fr  ;
     margin-top: 30px;
     width:50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
