@@ -126,6 +126,7 @@ section{
     
 .projects-wrapper{
     overflow: hidden;
+    width:100px;
     margin-top: 40px;
 }
 
@@ -133,13 +134,14 @@ section{
     display: flex;
     gap:20px;
     animation: scrollProject 10s linear infinite;
-    transition:0.3;
+    transition:0.3s;
+    flex-wrap: wrap;
 }
 
 
 /* ANIMATION */
 
-@keyframes scrollProject{
+@keyframes  scrollProject{
 
     0%{
         transform: translateX(0);
@@ -151,7 +153,7 @@ section{
 }
 
 .projects-wrapper:hover .project-track{
-     animation-play-state: paused;
+     animation-play-state: running;
 }
 
 /* HAMBURGER */
