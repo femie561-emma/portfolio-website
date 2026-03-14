@@ -133,7 +133,7 @@ section{
 .project-track{
     display: flex;
     gap: 20px;
-    animation: scrollProjects 10s linear infinite;
+    animation: scroll-left 20s linear infinite;
 }
 
 .projects-wrapper:hover .project-track{
@@ -208,7 +208,7 @@ nav.show{
 
 /* ANIMATION */
 
-@keyframes scrollProjects{
+@keyframes scroll-left{
 
     0%{
         transform: translateX(0);
