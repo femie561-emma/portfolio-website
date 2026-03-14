@@ -18,24 +18,24 @@ document.querySelector("#nav-menu a").forEach(link =>{
 });
 
 
-const track = document.getElementById("project-track");
+// const track = document.getElementById("project-track");
 
-track.innerHTML += track.innerHTML;
+// track.innerHTML += track.innerHTML;
 
-let scrollAmount = 0;
+// let scrollAmount = 0;
 
-function autoScroll(){
-   scrollAmount += 0.5;
+// function autoScroll(){
+//    scrollAmount += 0.5;
 
-   if(scrollAmount >= track.scrollWidth / 2){
-      scrollAmount = 0;
-  }
-      track.style.transform = `translateX(-${scrollAmount}px)`
+//    if(scrollAmount >= track.scrollWidth / 2){
+//       scrollAmount = 0;
+//   }
+//       track.style.transform = `translateX(-${scrollAmount}px)`
 
-      requestAnimationFrame(autoScroll);
-   }
+//       requestAnimationFrame(autoScroll);
+//    }
 
-   autoScroll();
+//    autoScroll();
    
 
 
