@@ -137,11 +137,11 @@ section{
     display: flex;
     gap: 20px;
     width: max-content;
-    animation: scroll-left 20s linear infinite;
+    animation: scrollProject 10s linear infinite;
 }
 
 .projects-wrapper:hover .project-track{
-     animation-play-state: paused;
+     animation-play-state: ;
 }
 
 /* HAMBURGER */
@@ -212,7 +212,7 @@ nav.show{
 
 /* ANIMATION */
 
-@keyframes scroll-left{
+@keyframes scrollProject{
 
     0%{
         transform: translateX(0);
